@@ -16,7 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background-image: url(./Images/dark.jpg);
+    background-image: url(./dark.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
