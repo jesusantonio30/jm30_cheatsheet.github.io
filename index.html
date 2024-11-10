@@ -6,86 +6,94 @@
     <title>Positioning Cheat Sheet</title>
     <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Rasa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-</head>
 <body>
+    
+
+<!----------------------- Flex Box ----------------------->
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">
+                    <h1>Flexbox</h1>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="heading"><h2>Parent</h2></td>
+                <td class="data">
+                    <p>
+                        Display: Flex;<br>
+                        Justify-content; Center<br>
+                        Align-items: Center;
+                    </p>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td class="heading"><h2>Child</h2></td>
+                <td class="data"><p>Width: 50%;</p></td>
+            </tr>
+        </tbody>
+    </table>
+<!----------------------- Grid ----------------------->
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">
+                    <h1>Grid</h1>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="heading"><h2>Parent</h2></td>
+                <td class="data">
+                    <p>
+                        Display: Grid;<br>
+                        Place-Items: Center;
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="heading"><h2>Child</h2></td>
+                <td class="data"><p>Width: 50%;</p></td>
+            </tr>
+        </tbody>
+    </table>
+<!----------------------- Absolute Pos. ----------------------->
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">
+                    <h1>Absolute Pos.</h1>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="heading"><h2>Parent</h2></td>
+                <td class="data">
+                    <p>
+                        Position: Relative;
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="heading"><h2>Child</h2></td>
+                <td class="data">
+                    <p>
+                        Position: Absolute; <br>
+                        Top: 50%;<br>
+                        Left: 50%;<br>
+                        Transform: translate(-50%,-50%)
+                    </p>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
 
-        <!-- Flex Box -->
-        <article id="a1">
-            <table>
-                <thead>
-                    <tr>
-                        <th colspan="2">Flex Box</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="heading">Parent</td>
-                        <td class="data">
-                            Display: Flex; <br><br>
-                            Justify-Content: Center; <br><br>
-                            Align-Items: Center;
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="heading">Child</td>
-                        <td class="data">Width: 50%;</td>
-                    </tr>
-                </tbody>
-            </table>
-        </article>
-
-
-        <!-- Grid -->
-        <article id="a2">
-            <table>
-                <thead>
-                    <tr>
-                        <th colspan="2">Grid</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="heading">Parent</td>
-                        <td class="data">
-                            Display: Grid; <br><br>
-                            Place-Items: Center;
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="heading">Child</td>
-                        <td class="data">Width: 50%;</td>
-                    </tr>
-                </tbody>
-            </table>
-        </article>
-
-
-        <!-- Absolute Pos. -->
-        <article id="a3">
-            <table>
-                <thead>
-                    <tr>
-                        <th colspan="2">Absolute Pos.</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="heading">Parent</td>
-                        <td class="data">Position: Relative
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="heading">Child</td>
-                        <td class="data">
-                            Position: Absolute;<br> <br>
-                            Top: 50%; <br> <br>
-                            Left: 50%; <br> <br>
-                            Transform: Translate(-50%,-50%);
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </article>
 </body>
 </html>
