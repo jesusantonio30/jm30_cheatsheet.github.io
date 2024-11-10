@@ -9,15 +9,15 @@ body {
     background-image: url(./dark.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1864px;
+    height: 1117px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
 table {
-    width: 650px;
-    height: 650px;
+    width: 450px;
+    height: 450px;
     border-collapse: separate;
     color: white;
     background-color: #1a1a1a;
@@ -27,14 +27,14 @@ table {
 }
 
 thead tr th {
-    padding: 40px 0;
-    font-size: 3rem;
+    padding: 19px 0;
+    font-size: 1.45rem;
     border-bottom: 1px solid grey;
 }
 
 .heading{
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.2rem;
     border-right: 1px solid grey;
 }
 
@@ -45,9 +45,9 @@ td{
 
 .data {
     line-height: 2;
-    font-size: 2rem;
+    font-size: 0.95rem;
     text-align: left;
-    padding-left: 30px;
+    padding-left: 15px;
 }
 
 @media (max-width: 500px) {
